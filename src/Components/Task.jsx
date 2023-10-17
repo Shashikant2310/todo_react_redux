@@ -2,6 +2,7 @@ import React from "react";
 import { FaTrash } from "react-icons/fa6";
 import { useDispatch } from "react-redux";
 import { deleteNote } from "../redux/todoslice";
+
 const Task = ({ note, id }) => {
   const dispatch = useDispatch();
   return (

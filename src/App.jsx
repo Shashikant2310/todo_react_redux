@@ -3,9 +3,6 @@ import AddTask from "./Components/AddTask";
 import Tasks from "./Components/Tasks";
 
 function App() {
-  // function addNotes(newNote) {
-  //   dispatch(addToList(newNote));
-  // }
   return (
     <div>
       <Header />
