@@ -3,7 +3,7 @@ import Task from "./Task";
 import { useSelector } from "react-redux";
 
 const Tasks = () => {
-  const notes = useSelector((state) => state.todoReducer.todoList);
+  const notes = useSelector((state) => state.todo.todoList);
   console.log(notes);
   return (
     <>
